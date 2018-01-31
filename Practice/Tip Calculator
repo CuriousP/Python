@@ -1,0 +1,10 @@
+"""Calculating the tip on the meal amount
+let's say tax = 6.75% and tip = 15%
+"""
+
+meal = 50.67
+tax = 6.75/100
+tip = 15/100
+
+meal = meal + meal * tax
+total = meal + meal * tip
